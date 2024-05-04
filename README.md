@@ -8,11 +8,6 @@ This is a simple weather app built using Python. It provides users with current 
 - **Location-Based:** Automatically fetch weather information based on the user's location using geolocation services.
 - **Search by Location:** Allow users to search for weather information by entering a specific location.
 
-## Requirements
-- Python 3.x
-- Requests library (install via `pip install requests`)
-- Optional: Geolocation service API (if using location-based functionality)
-
 ## Usage
 1. Clone this repository to your local machine.
 2. Install the required dependencies using `pip install -r requirements.txt`.
