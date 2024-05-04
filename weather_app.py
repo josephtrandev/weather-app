@@ -49,7 +49,7 @@ response = requests.get(url)
 
 if response.status_code == 200:
     data = response.json()
-    temperature = data['main']['temp']
+    temperature = math.ceil(data['main']['temp'])
     desc = data['weather'][0]['description']
     print(f'Temperature: {temperature} {temperature_units}')
     print(f'Description: {desc}')
